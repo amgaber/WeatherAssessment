@@ -16,16 +16,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-//        let manager = AFHTTPSessionManager()
-//        manager.get("https://api.openweathermap.org/data/2.5/weather?q=Cairo&apiKey=f5cb0b965ea1564c50c6f1b74534d823",
-//                    parameters: nil,
-//                    headers: [:], progress: nil,
-//                    success: {(operation,responseObject) -> Void in
-//            print(responseObject)
-//            print("success")
-//        },failure: { (operation,error) in
-//            print("Error: " + error.localizedDescription)
-//            })
         return true
     }
 
