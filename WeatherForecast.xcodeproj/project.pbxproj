@@ -19,6 +19,9 @@
 		B2F89C7329DA1F4E00A66494 /* AFHTTPSessionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F89C7229DA1F4E00A66494 /* AFHTTPSessionProtocol.swift */; };
 		B2F89C7629DA216D00A66494 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F89C7529DA216D00A66494 /* Weather.swift */; };
 		B2F89C7929DA30F400A66494 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F89C7829DA30F400A66494 /* Error.swift */; };
+		B2F89C7B29DA6C2500A66494 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F89C7A29DA6C2500A66494 /* TableViewCell.swift */; };
+		B2F89C8029DA802B00A66494 /* Details.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2F89C7F29DA802B00A66494 /* Details.storyboard */; };
+		B2F89C8229DA804A00A66494 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F89C8129DA804A00A66494 /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +41,9 @@
 		B2F89C7229DA1F4E00A66494 /* AFHTTPSessionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFHTTPSessionProtocol.swift; sourceTree = "<group>"; };
 		B2F89C7529DA216D00A66494 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		B2F89C7829DA30F400A66494 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		B2F89C7A29DA6C2500A66494 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		B2F89C7F29DA802B00A66494 /* Details.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Details.storyboard; sourceTree = "<group>"; };
+		B2F89C8129DA804A00A66494 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		EF222E0936D39F42B04C1754 /* Pods_WeatherForecast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherForecast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -103,6 +109,9 @@
 				B2366CA429D9DB1200312A23 /* Info.plist */,
 				B2366C9C29D9DB1100312A23 /* WeatherForecast.xcdatamodeld */,
 				B2D457CD29D9E3A800CF83A5 /* WeatherForecast-Bridging-Header.h */,
+				B2F89C7A29DA6C2500A66494 /* TableViewCell.swift */,
+				B2F89C7F29DA802B00A66494 /* Details.storyboard */,
+				B2F89C8129DA804A00A66494 /* DetailsViewController.swift */,
 			);
 			path = WeatherForecast;
 			sourceTree = "<group>";
@@ -195,6 +204,7 @@
 				B2366CA329D9DB1200312A23 /* LaunchScreen.storyboard in Resources */,
 				B2366CA029D9DB1200312A23 /* Assets.xcassets in Resources */,
 				B2366C9B29D9DB1100312A23 /* Main.storyboard in Resources */,
+				B2F89C8029DA802B00A66494 /* Details.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,11 +260,13 @@
 				B2F89C7929DA30F400A66494 /* Error.swift in Sources */,
 				B2F89C7029DA1EA100A66494 /* AFHTTPNetworkingManager.swift in Sources */,
 				B2366C9829D9DB1100312A23 /* ViewController.swift in Sources */,
+				B2F89C7B29DA6C2500A66494 /* TableViewCell.swift in Sources */,
 				B2366C9429D9DB1100312A23 /* AppDelegate.swift in Sources */,
 				B2F89C7329DA1F4E00A66494 /* AFHTTPSessionProtocol.swift in Sources */,
 				B2366C9629D9DB1100312A23 /* SceneDelegate.swift in Sources */,
 				B2366C9E29D9DB1100312A23 /* WeatherForecast.xcdatamodeld in Sources */,
 				B2F89C7629DA216D00A66494 /* Weather.swift in Sources */,
+				B2F89C8229DA804A00A66494 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
